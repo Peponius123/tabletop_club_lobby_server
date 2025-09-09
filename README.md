@@ -64,6 +64,9 @@ on which version of Tabletop Club you are using:
    cargo run -- -p 9080 -t -x tests/certificate.crt -k tests/private.pem
    ```
 
+   * The test certificates only work for connecting from localhost
+   * To setup a server you have to create your own key and certificate with your actual IP/URL
+
 2. Run the game by passing the following command line arguments:
 
    ```bash
